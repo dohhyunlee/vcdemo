@@ -11,6 +11,7 @@ const NoMatch = ({location}) => (
         <strong>Error!</strong> No route found matching:
         <div>
             <code>{location.pathname}</code>
+            <div>CSE16</div>
         </div>
     </div>
 );
