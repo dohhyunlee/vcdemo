@@ -8,6 +8,7 @@ import ShowList from "./components/ShowList";
 
 const NoMatch = ({location}) => (
     <div>
+
         <div>
             Natnael Added this!
         </div>
@@ -15,6 +16,7 @@ const NoMatch = ({location}) => (
         <div>
             <code>{location.pathname}</code>
             <div>CSE16</div>
+
         </div>
     </div>
 );
