@@ -8,10 +8,15 @@ import ShowList from "./components/ShowList";
 
 const NoMatch = ({location}) => (
     <div>
-        <strong>Error!</strong> No route found matching:I made more changes here
+
+        <div>
+            Natnael Added this!
+        </div>
+        <strong>Error!</strong> No route found matching:
         <div>
             <code>{location.pathname}</code>
-            <h1>I made changes here</h1>
+            <div>CSE16</div>
+
         </div>
     </div>
 );
